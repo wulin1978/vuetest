@@ -23,17 +23,17 @@ export default {
   font-size: 14px;
   color: #ccc
 }
-.lt-branchlevel_1{
+.lt-branch_level_1{
   font-size: 50px;
   font-weight: bold;
 }
-.lt-branchlevel_3{
+.lt-branch_level_3{
   color: green;
 }
-.lt-branchlevel_2{
+.lt-branch_level_2{
   color: blueviolet;
 }
-.lt-branchlevel_0{
+.lt-branch_level_0{
   font-size: 12px;
   color: red;
 }

@@ -20,12 +20,19 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
 .lt-branch{
+  border-left:6px solid rgba(255, 0, 0, 0);
   font-size: 14px;
   color: #ccc
 }
 .lt-branch_level_1{
   font-size: 50px;
   font-weight: bold;
+  padding-left: 45px !important;
+}
+.lt-branch-icon_level_1{
+  font-size: 50px !important;
+  font-weight: bold;
+  color:red;
 }
 .lt-branch_level_3{
   color: green;
@@ -36,5 +43,21 @@ export default {
 .lt-branch_level_0{
   font-size: 12px;
   color: red;
+}
+.lt-branch_level_2_active{
+  text-decoration:underline;
+}
+.lt-branch-icon_level_2_active{
+  color:rgb(248, 6, 175);
+}
+.lt-branch_level_1_active{
+  border-left:6px solid rgb(19, 99, 43);
+}
+.lt-branch_active{
+  background:red;
+  color:rgb(238, 241, 53);
+}
+.lt-branch-icon_active{
+  color:rgb(247, 247, 248);
 }
 </style>

@@ -7,10 +7,7 @@ import Listtree from './plugin/listtree/lib'
 
 Vue.use(Listtree, {
   listData: require('../static/data.json'),
-  router,
-  icon: {
-    source: ['../static/arrow_triangle-down.png', '../static/arrow_triangle-right.png']
-  }
+  router
 })
 Vue.config.productionTip = false
 

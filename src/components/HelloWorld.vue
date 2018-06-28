@@ -19,10 +19,23 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
+@import url("//at.alicdn.com/t/font_722544_pfrs02ws64.css");
+
+.iconfont {
+    font-family:"iconfont" !important;
+    font-style:normal;
+    font-weight: normal;
+    font-size:30px;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
 .lt-branch{
   border-left:6px solid rgba(255, 0, 0, 0);
   font-size: 14px;
-  color: #ccc
+  color: #ccc;
+  margin: 6px 0;
+  padding: 3px;
 }
 .lt-branch_level_1{
   font-size: 50px;
@@ -59,5 +72,12 @@ export default {
 }
 .lt-branch-icon_active{
   color:rgb(247, 247, 248);
+}
+.lt-branch_active_parent{
+  background:#ccc;
+}
+.lt-branch:hover{
+  background:rgb(19, 98, 112);
+  color:white;
 }
 </style>

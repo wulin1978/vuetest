@@ -7,7 +7,10 @@ import Listtree from './plugin/listtree/lib'
 
 Vue.use(Listtree, {
   listData: require('../static/data.json'),
-  router
+  router,
+  indent: 0,
+  // animation: false,
+  icon: 1
 })
 Vue.config.productionTip = false
 

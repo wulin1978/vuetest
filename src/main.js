@@ -8,9 +8,15 @@ import Listtree from './plugin/listtree/lib'
 Vue.use(Listtree, {
   listData: require('../static/data.json'),
   router,
-  indent: 0,
-  // animation: false,
-  icon: 1
+  indent: 20,
+  spacing: 10,
+  animation: false,
+  // icon: ['../static/arrow_triangle-right.png', 90],
+  // icon: ['iconfont icon-wenjianjiashouqi', 'iconfont icon-wenjianjiazhankai'],
+  // icon: ['iconfont icon-shousuo2', 90],
+  icon: 1,
+  iconSize: 18,
+  open: 1
 })
 Vue.config.productionTip = false
 

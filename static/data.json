@@ -81,7 +81,38 @@
       {
         "name": "二级目录五",
         "router": 14,
-        "children": []
+        "children": [
+          {
+            "name": "三级目录五",
+            "children": [
+              {
+                "name": "四级目录三",
+                "children": [
+                  {
+                    "name": "52",
+                    "router": "/abc",
+                    "children": [
+                      {
+                        "name": "61",
+                        "children":[
+                          {
+                            "name": "71",
+                            "children": [
+                              {
+                                "name": "81",
+                                "router": "/abc"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     ]
   }

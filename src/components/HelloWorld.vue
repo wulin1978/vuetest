@@ -19,17 +19,8 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
-@import url("//at.alicdn.com/t/font_722544_pfrs02ws64.css");
+@import url("//at.alicdn.com/t/font_722547_zqavdtnqfb7.css");
 
-.iconfont {
-    font-family:"iconfont" !important;
-    font-style:normal;
-    font-weight: normal;
-    font-size:30px;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-stroke-width: 0.2px;
-    -moz-osx-font-smoothing: grayscale;
-}
 .lt-branch{
   border-left:6px solid rgba(255, 0, 0, 0);
   font-size: 14px;
@@ -40,10 +31,10 @@ export default {
 .lt-branch_level_1{
   font-size: 50px;
   font-weight: bold;
-  padding-left: 45px !important;
+  padding-left: 45px;
 }
 .lt-branch-icon_level_1{
-  font-size: 50px !important;
+  font-size: 50px;
   font-weight: bold;
   color:red;
 }
@@ -79,5 +70,9 @@ export default {
 .lt-branch:hover{
   background:rgb(19, 98, 112);
   color:white;
+}
+.lt-branch-icon{
+  /* 控制图标颜色 */
+  color:rgb(211, 99, 196);
 }
 </style>

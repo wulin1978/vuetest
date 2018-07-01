@@ -7,17 +7,19 @@ import Listtree from './plugin/listtree/lib'
 
 Vue.use(Listtree, {
   listData: require('../static/data.json'),
-  router,
   indent: 20,
   spacing: 10,
-  animation: false,
+  // animation: false,
   // icon: ['../static/arrow_triangle-right.png', 90],
   // icon: ['iconfont icon-wenjianjiashouqi', 'iconfont icon-wenjianjiazhankai'],
   // icon: ['iconfont icon-shousuo2', 90],
-  icon: 1,
-  iconSize: 18,
+  // icon: 6,
+  // iconSize: 18,
   open: 1
 })
+Vue.prototype.$push = function (r) {
+  router.push(r)
+}
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */

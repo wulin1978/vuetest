@@ -73,6 +73,7 @@ export default {
 }
 .lt-branch-icon{
   /* 控制图标颜色 */
-  color:rgb(211, 99, 196);
+  color:rgb(189, 71, 41);
+  font-size: 30px;
 }
 </style>
